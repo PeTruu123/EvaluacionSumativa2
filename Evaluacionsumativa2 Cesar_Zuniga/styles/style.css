@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    color: #01050b;
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.destacado {
+    color: #3513f8;
+    font-weight: bold;
+}
+
+img {
+    width: 50px; 
+    height: auto; 
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    background: url("https://c8.alamy.com/compes/2j47te5/icono-de-auriculares-con-sonido-wave-beats-icono-de-auriculares-con-sonido-wave-beats-dj-podcast-amante-de-la-musica-portada-del-album-de-musica-2j47te5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #26ff00;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;   
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+.btn:hover {
+    background-color: #00b330
+}
+
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+header h2{
+    text-align: left;
+    color: aqua
+}
+
+.caracteristica {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.caracteristica h3 {
+    font-size: 2em;
+}
+
+.testimonio {
+    background-color: #f57a7a;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.testimonio p {
+    font-style: italic;
+}
+
+.testimonio cite {
+    font-weight: bold;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="title"],
+textarea {
+    width:100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
